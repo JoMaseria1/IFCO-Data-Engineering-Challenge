@@ -23,6 +23,8 @@ Since the tasks are resolved and commented line by line in the notebook, please 
 
 ## Task 6
 
+[invoicing_df](https://github.com/730afcb0-5156-4bc5-ad5b-3ebeeb705aab)
+
 The transformed datasets in Databricks have been loaded into Power BI as data sources and dimension tables have been created in the data model to performn the necessary calculations and relationships. The resulting model can be found below:
 
 ![image](https://github.com/user-attachments/assets/862d3de8-28e4-4d53-a65e-73366ec84252)

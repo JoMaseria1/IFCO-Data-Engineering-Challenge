@@ -10,3 +10,5 @@ The PySpark notebook is divided into three sections and can be accessed via the 
 - Loading and transforming orders.csv: Import, clean, and prepare data for analysis, then export it as CSV.
 - Loading and transforming invoicing_data.json: Similar to the previous step but for invoicing data.
 - Test completion: Solving the provided tests using the transformed data, with detailed code comments and unit tests.
+
+While for the Power BI, the following file is provided:

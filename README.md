@@ -19,11 +19,17 @@ The PySpark notebook is divided into three main sections:
 - Loading and transforming invoicing_data.json: Similar to the previous step but for invoicing data.
 - Test completion: Solving the provided tests using the transformed data, with detailed code comments and unit tests.
 
+Considerations:
+
+- Due to the limitations of the Community Edition, a new cluster needs to be created in the environment to run the notebook.
+
 Since the tasks are resolved and commented line by line in the notebook, please refer to the provided resource to evaluate them.
 
 ## Task 6
 
-[invoicing_df](https://github.com/730afcb0-5156-4bc5-ad5b-3ebeeb705aab)
+[orders_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/orders_df.csv)
+
+[invoicing_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/invoicing_df.csv)
 
 The transformed datasets in Databricks have been loaded into Power BI as data sources and dimension tables have been created in the data model to performn the necessary calculations and relationships. The resulting model can be found below:
 
@@ -50,6 +56,22 @@ Focusing on Main Owners only and due to invoicing data is missing over the past 
 ![image](https://github.com/user-attachments/assets/2c8ce6df-fa7a-44f3-b7f6-be97b93f23e2)
 
 ### 3. Top 5 performers by month selling plastic crates for a rolling 3 months evaluation window:
+
+The rolling sum was calculated as the following DAX metric:
+
+```
+# Orders (3M-RS) = 
+VAR MaxDate = MAX(Dim_Calendar[Date]) 
+VAR ThreeMonthsAgo = EDATE(MaxDate, -3) -- 3 months before max date
+VAR RollingSum = 
+    CALCULATE(
+        [# Orders],
+        Dim_Calendar[Date] > ThreeMonthsAgo,
+        Dim_Calendar[Date] <= MaxDate
+    )
+RETURN 
+RollingSum
+```
 
 The top performers are found in the summary table (yellow), while the MoM evolution of the rolling sum is represented in the bottom line chart (orange)
 

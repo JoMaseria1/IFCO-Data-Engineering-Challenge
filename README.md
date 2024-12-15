@@ -27,21 +27,23 @@ The transformed datasets in Databricks have been loaded into Power BI as data so
 
 ![image](https://github.com/user-attachments/assets/862d3de8-28e4-4d53-a65e-73366ec84252)
 
-While Dim_Order_ID, Dim_Crate, Dim_Owner_Type and Dim_Sales_Owner are a result of unique values in the fact tables, Dim_Calendar has been generated with the function CALENDARAUTO.
+Considerations:
+
+- While Dim_Order_ID, Dim_Crate, Dim_Owner_Type and Dim_Sales_Owner are a result of unique values in the fact tables, Dim_Calendar has been generated with the function CALENDARAUTO.
 
 ### 1. Distribution of orders by crate type: 
 
-The pie chart shows the following distribution
+The pie chart shows the following distribution over the past 2 years:
 
-Plastic: 5 (36%)
-Wood: 5 (36%)
-Metal: 6 (29%)
+Plastic: 10 (36%)
+Wood: 9 (32%)
+Metal: 9 (32%)
 
-![image](https://github.com/user-attachments/assets/aac28db5-0410-483f-a6ea-ba584f4d75e9)
+![image](https://github.com/user-attachments/assets/24b33173-43d0-4a9d-b406-7df9c98f94b8)
 
 ### 2. Sales owners that need most training to improve selling on plastic crates, based on the last 12 months orders:
 
-Focusing on Main Owners only, the distribution by crate over the last 12 months shows that David Goliat, Chris Pratt and Leon Leonov are the worst performers.
+Focusing on Main Owners only and due to invoicing data is missing over the past 12 months, the distribution of number of orders has been stated as the key metric to determine that worst performers were David Goliat, Chris Pratt and Leon Leonov.
 
 ![image](https://github.com/user-attachments/assets/2c8ce6df-fa7a-44f3-b7f6-be97b93f23e2)
 

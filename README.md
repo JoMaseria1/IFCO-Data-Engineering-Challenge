@@ -5,13 +5,9 @@ This challenge involves processing and analyzing datasets to answer various busi
 - Visual Studio Code (Python / PySpark) for Tasks 1-5.
 - Power BI for Task 6.
 
-### Resources:
-
-[Python Notebook](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/26bfe9583ee2884f9802e78140b71c3c5d9dafd8/Python%20Notebook.ipynb)
-
-[Test 6 - Power BI](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/2a6f78bbd554e7d9d3305f313c5e74e10d76a5b2/Test%206%20-%20Power%20BI.pbix)
-
 ## Tasks 1-5
+
+Solution: [Python Notebook](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/26bfe9583ee2884f9802e78140b71c3c5d9dafd8/Python%20Notebook.ipynb)
 
 The PySpark notebook is divided into three main sections:
 
@@ -27,9 +23,9 @@ Since the tasks are resolved and commented line by line in the notebook, this ca
 
 ## Task 6
 
-[orders_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/orders_df.csv)
+Solution: [Test 6 - Power BI](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/2a6f78bbd554e7d9d3305f313c5e74e10d76a5b2/Test%206%20-%20Power%20BI.pbix)
 
-[invoicing_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/invoicing_df.csv)
+Sources: [orders_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/orders_df.csv)         [invoicing_df.csv](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/eb3749b735948f360df7ae7f028c059e7a523083/invoicing_df.csv)
 
 The transformed datasets in Databricks have been loaded into Power BI as data sources and dimension tables have been created in the data model to performn the necessary calculations and relationships. The resulting model can be found below:
 

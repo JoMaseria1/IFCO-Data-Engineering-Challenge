@@ -23,7 +23,7 @@ Considerations:
 
 - Due to the limitations of the Community Edition, a new cluster needs to be created in the environment to run the notebook.
 
-Since the tasks are resolved and commented line by line in the notebook, please refer to the provided resource to evaluate them.
+Since the tasks are resolved and commented line by line in the notebook, this can be executed in Jupyter Notebook on Conda or Visual Studio Code Environments. Please refer to the provided resource to evaluate, run the code and get the solutions for the tasks.
 
 ## Task 6
 

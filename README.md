@@ -7,7 +7,7 @@ This challenge involves processing and analyzing datasets to answer various busi
 
 ### Resources:
 
-[Python Notebook](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/955cf86ca79980ccd4e07daa79d03131e7640310/Python%20Notebook.ipynb)
+[Python Notebook](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/26bfe9583ee2884f9802e78140b71c3c5d9dafd8/Python%20Notebook.ipynb)
 
 [Test 6 - Power BI](https://github.com/JoMaseria1/IFCO-Data-Engineering-Challenge/blob/2a6f78bbd554e7d9d3305f313c5e74e10d76a5b2/Test%206%20-%20Power%20BI.pbix)
 

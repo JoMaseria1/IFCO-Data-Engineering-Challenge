@@ -2,8 +2,8 @@
 
 This challenge involves processing and analyzing datasets to answer various business-related tests. For this, I used:
 
-- Databricks Community Edition (PySpark) for Tasks 1-5.
-- Power BI for Task 6 (Dashboarding).
+- Visual Studio Code (Python / PySpark) for Tasks 1-5.
+- Power BI for Task 6.
 
 ### Resources:
 

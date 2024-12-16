@@ -21,7 +21,7 @@ The PySpark notebook is divided into three main sections:
 
 Considerations:
 
-- Due to the limitations of the Community Edition, a new cluster needs to be created in the environment to run the notebook.
+- The necessary modules to run the code are listed in the notebook but extra intallations might be needed depending on the user setup.
 
 Since the tasks are resolved and commented line by line in the notebook, this can be executed in Jupyter Notebook on Conda or Visual Studio Code Environments. Please refer to the provided resource to evaluate, run the code and get the solutions for the tasks.
 
